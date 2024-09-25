@@ -10,13 +10,13 @@ fin = float(input("Enter grade for Final Exam: "))
 midfin = float(input("Enter grade for Midterms and Final Preparation: "))
 
 grade = ((labs*((100/6)*20)/100) + 
-             (quizzes*((100/6)*15)/100) + 
-              ((as1*4)/100) +
-               ((as1*4)/100) +
-                ((as3*4)/100) +
-                 ((as4*4)/100) +
-                  ((mid1*12.5)/100) +
-                   ((mid2*12.5)/100) +
-                    ((fin*18)/100) +
-                     ((midfin*6)/100))
-print("Your garde is: " + str(grade))
+            (quizzes*((100/6)*15)/100) + 
+            ((as1*4)/100) +
+            ((as1*4)/100) +
+            ((as3*4)/100) +
+            ((as4*4)/100) +
+            ((mid1*12.5)/100) +
+            ((mid2*12.5)/100) +
+            ((fin*18)/100) +
+            ((midfin*6)/100))
+print("Your garde is: " + str(round(grade)))
